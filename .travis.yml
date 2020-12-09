@@ -8,4 +8,4 @@ cache:
 before_install:
   - chmod +x mvnw
   
-script: chmod +x mvnw && mvn verify -q -Dspring.datasource.url=jdbc:h2:mem:travis
+script: chmod +x mvnw && mvn verify -q -Dspring.datasource.url=jdbc:h2:mem:travis 
